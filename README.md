@@ -1,16 +1,16 @@
-# 📄 Handwritten Prescription Reader
+# Handwritten Prescription Reader
 
 A computer vision tool that reads handwritten medical prescriptions from images using OCR (Optical Character Recognition). It detects and extracts handwritten text, draws bounding boxes around each detected word or phrase, and saves both annotated images and plain-text outputs.
 
 ---
 
-## 🩺 Problem Statement
+## Problem Statement
 
 Handwritten prescriptions are still widely used in clinics and hospitals — especially in resource-limited settings. They are difficult to digitize, prone to misreading, and create barriers to record-keeping and pharmacy automation. This tool addresses that problem by automatically extracting text from prescription images using a pre-trained OCR model, with no manual transcription required.
 
 ---
 
-## 🎯 Features
+## Features
 
 - Processes an entire folder of prescription images in one command
 - Detects and extracts handwritten (and printed) text using EasyOCR
@@ -21,7 +21,7 @@ Handwritten prescriptions are still widely used in clinics and hospitals — esp
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 handwritten-prescription-reader/
@@ -38,7 +38,7 @@ handwritten-prescription-reader/
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the Repository
 
@@ -69,7 +69,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 ### Step 1 — Add Your Images
 
@@ -101,7 +101,7 @@ python main.py --input my_images --output results --confidence 0.3
 
 ---
 
-## 📤 Output
+## Output
 
 For each image processed, two files are created in the output folder:
 
@@ -125,7 +125,7 @@ SOS  [confidence: 55%]
 
 ---
 
-## 🛠️ Technology Used
+## Technology Used
 
 
 | [EasyOCR](https://github.com/JaidedAI/EasyOCR) | Pre-trained OCR model for text detection & recognition |
@@ -135,7 +135,7 @@ SOS  [confidence: 55%]
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 - Works best with clear, well-lit images
 - Accuracy may be lower on very messy or cursive handwriting
@@ -144,7 +144,7 @@ SOS  [confidence: 55%]
 
 ---
 
-## 🔮 Possible Future Improvements
+## Possible Future Improvements
 
 - Add a simple web interface (Flask/Streamlit) for drag-and-drop uploads
 - Support multiple languages
@@ -153,7 +153,7 @@ SOS  [confidence: 55%]
 
 ---
 
-## 📚 Dataset Suggestions
+## Dataset Suggestions
 
 | IAM Handwriting Dataset | https://www.kaggle.com/datasets/naderabdalghani/iam-handwritten-forms-dataset |
 | Handwritten Medical Prescriptions | Search "handwritten prescription" on Kaggle |
@@ -161,7 +161,7 @@ SOS  [confidence: 55%]
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 DYAVANI MANISH
 Computer Vision Course — BYOP Capstone Project
@@ -169,6 +169,6 @@ VIT / VIT Bhopal University
 
 ---
 
-## 📄 License
+## License
 
 This project is open-source and available under the [MIT License](LICENSE).
